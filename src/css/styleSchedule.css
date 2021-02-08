@@ -1,0 +1,86 @@
+.WeekdaySchedule {
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 80vh;
+  width: 70vh;
+  border: solid;
+  border-width: thin;
+  border-radius: 5px;
+  border-color: lightgrey;
+  padding: 10px;
+  background-color: white;
+}
+
+.WeekdayContainer {
+  margin-right: 8px;
+  background-color: #82B2CA;
+  border-radius: 5px;
+  padding: 8px;
+  /* width: 120px; */
+  height: fit-content;
+  max-height: 95%;
+  min-width: 100px;
+}
+
+.ExerciseCard {
+  margin-bottom: 8px;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #ffffff;
+  border-bottom: 1px solid gray;
+}
+.ExerciseCard:active{
+  background-color: skyblue;
+}
+
+.ExerciseCard:hover{
+  transform: scale(1.015)
+}
+
+.AddWorkoutButton {
+  background-color: inherit;
+  border: none;
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  flex:none;
+  font-family: "MontSerrat";
+}
+
+.AddWorkoutButton:hover {
+  background-color: rgb(132, 192, 212);
+  border-radius: 3px;
+}
+
+.RemoveExercise {
+  text-align: right;
+  justify-content: right;
+}
+
+.RemoveExercise button {
+  background-color: inherit;
+  border: none;
+  padding: 5px;
+}
+
+.center {
+  position: absolute;
+    width: 300px;
+    height: 50px;
+    top: 30%;
+    left: 45%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px; 
+    border: solid 1px #f2f2f2;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #e9e9e9;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.cardList {
+  min-height: 50px;
+}

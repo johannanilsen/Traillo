@@ -1,0 +1,105 @@
+#loginContainer {
+  background-color: #ebecf0;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  font-family: "MontSerrat";
+  height: 80vh;
+  padding-top: 10vh;
+}
+
+#loginContainer a:hover {
+  cursor: pointer;
+}
+#loginContainer a{
+  text-decoration: underline;
+}
+
+#loginForms {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  padding: 15pt;
+}
+
+#tosignUpContainer {
+  display: flex;
+  padding: 15pt;
+}
+#tosignUpContainer a:hover {
+  cursor: pointer;
+}
+#tosignUpContainer a{
+  text-decoration: underline;
+  margin-left: 4px;
+}
+
+#loginButton {
+  background-color: #cce7f6;
+  border: none;
+  color: black;
+  padding: 12px 28px;
+  width: 330px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  font-family: "MontSerrat";
+  transition: all 0.2s ease-in-out;
+}
+
+#loginButton:hover {
+  transform: scale(1.015);
+  cursor:pointer;
+}
+
+.welcomepagebackground {
+  background-color: #ebecf0;
+  /* height: 500px; */
+  height: 90vh;
+}
+
+.welcometext {
+  font-family: "MontSerrat";
+  margin-right: 40px;
+  padding-top: 35px;
+}
+
+.welcomecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+}
+.welcometitle {
+  font-size: 50px;
+}
+.welcometitle2 {
+  font-size: 30px;
+  padding-left: 8px;
+  padding-bottom: 10px;
+}
+#welcomeButton {
+  background-color: #cce7f6;
+  border: black;
+  color: black;
+  padding: 12px 28px;
+  width: 330px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  font-family: "MontSerrat";
+  transition: all 0.2s ease-in-out;
+  margin-left: 50px;
+  margin-top: 20px;
+  cursor:pointer;
+}
+
+.inlinelink{
+  background-color: red;
+  cursor: pointer;
+}

@@ -1,0 +1,87 @@
+.fullWorkoutView{
+    display:flex;
+    justify-content: center;
+    height: 85vh;
+}
+
+.allWorkouts {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    overflow: auto;
+    order:1;
+    margin: 20px;
+}
+
+.backNMuscle {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    order: 2;
+    margin: 20px;
+}
+
+.backToWeekBtn {
+    background-color: #cce7f6;
+    border: none;
+    color: black;
+    padding: 12px 28px;
+    width: 330px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    font-family: "MontSerrat";
+    transition: all 0.2s ease-in-out;
+}
+
+.backToWeekBtn_empty {
+    background-color: #cce7f6;
+    border: none;
+    color: black;
+    padding: 12px 28px;
+    width: 330px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    font-family: "MontSerrat";
+    transition: all 0.2s ease-in-out;
+}
+.backToWeekBtn:hover {
+    transform: scale(1.015);
+    cursor: pointer;
+}
+
+.muscleCategories {
+    order:2;
+    border-radius:20px;
+    height:100%;
+    text-align:center;
+}
+
+.oneWorkout{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #82b2cab8;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.workoutTitle {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.workoutBody {
+    margin: 5px;
+
+}
+
+.workoutMuscle {
+    font-style: italic;
+}

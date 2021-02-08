@@ -1,0 +1,39 @@
+#signupContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20pt;
+  font-family: "MontSerrat";
+}
+
+#signupForms {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  padding: 15pt;
+}
+
+#tologinContainer {
+  display: flex;
+  padding: 15pt;
+}
+
+#signupButton {
+  background-color: #cce7f6;
+  border: none;
+  color: black;
+  padding: 12px 28px;
+  width: 330px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  font-family: "MontSerrat";
+  transition: all 0.2s ease-in-out;
+}
+
+#signinButton:hover {
+  transform: scale(1.015);
+}
